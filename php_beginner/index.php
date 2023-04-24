@@ -18,10 +18,13 @@
 
          <?php
          /*
-           php code to echo html
+           php code to echo html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
          */
  	         $name = "php";
  	         echo "<h1>echo html  </h1> <p>using {$name}</p>";
+           $name2 = "Aditya ";
+           $name3 = "Kumar";
+           echo "<h1>{$name2} </h1> <p>{$name3}</p>"
          ?>
          <?php
          $X = 10;
