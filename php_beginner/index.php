@@ -18,7 +18,7 @@
 
          <?php
          /*
-           php code to echo html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
+           php code to echo html
          */
  	         $name = "php";
  	         echo "<h1>echo html  </h1> <p>using {$name}</p>";
