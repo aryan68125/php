@@ -15,9 +15,17 @@ echo "<br/>";
 /*Integer overflow */
 echo "integer overflow";
 echo "<br/>";
-$k = PHP_INT_MAX;
+$k = PHP_INT_MAX; //returns max value of an integer
 var_dump($k);
 echo "<br/>";
 $k=$k+1; //when integer overflow happens it will automatically gets converted to float
+var_dump($k);
+echo "<br/>";
+var_dump(is_int($k));
+echo "<br/>";
+//casting a float value to integer
+echo "casting float into integer";
+echo "<br/>";
+$k = (int)$k;
 var_dump($k);
 echo "<br/>";
